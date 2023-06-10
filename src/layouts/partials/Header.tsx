@@ -1,6 +1,7 @@
 "use client";
 
-import Logo from "@/components/Logo";
+import Logo from "@/components/navigationBar/Logo/Logo";
+import { Tag } from "@/components/navigationBar/Tag/Tag";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
@@ -30,12 +31,15 @@ const Header = () => {
 
   return (
     <header
-      className={`header z-30 ${settings.sticky_header && "sticky top-0"}`}
+      className={` header z-30 h-[64px] ${
+        settings.sticky_header && "sticky top-0"
+      } flex items-center`}
     >
       <nav className="navbar container">
         {/* logo */}
-        <div className="order-0">
+        <div className="order-0 flex flex-row items-center justify-center">
           <Logo />
+          <Tag />
         </div>
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" />
