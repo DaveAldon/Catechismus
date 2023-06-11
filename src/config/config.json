@@ -12,8 +12,19 @@
     "logo_text": "Catechismus"
   },
 
+  "logos": {
+    "small": {
+      "title": "Catechismus",
+      "logo": "/images/logos/logo-small.png",
+      "logo_darkmode": "/images/logos/logo-small-darkmode.png",
+      "logo_width": "37",
+      "logo_height": "40",
+      "logo_text": "Catechismus"
+    }
+  },
+
   "settings": {
-    "search": true,
+    "search": false,
     "sticky_header": true,
     "theme_switcher": true,
     "default_theme": "system",
@@ -24,13 +35,13 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Copyright © 2023 Catechismus"
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/nextplate"
+    "label": "Donate",
+    "link": "/"
   },
 
   "disqus": {
