@@ -75,7 +75,7 @@ const Header = () => {
           {navigation_button.enable && (
             <li className="mt-4 inline-block lg:hidden">
               <Link
-                className="btn btn-outline-primary btn-sm"
+                className="btn btn-black btn-sm"
                 href={navigation_button.link}>
                 {navigation_button.label}
               </Link>
@@ -94,7 +94,7 @@ const Header = () => {
           <ThemeSwitcher className="mr-5" />
           {navigation_button.enable && (
             <Link
-              className="btn btn-outline-primary btn-sm hidden lg:inline-block"
+              className="btn btn-black btn-sm hidden lg:inline-block"
               href={navigation_button.link}>
               {navigation_button.label}
             </Link>

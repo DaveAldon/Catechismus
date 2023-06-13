@@ -13,3 +13,7 @@
 .btn-outline-primary {
   @apply border-dark bg-transparent text-dark hover:bg-dark hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-dark;
 }
+
+.btn-black {
+  @apply font-karla font-medium text-base bg-black text-stone-50 rounded-sm dark:bg-stone-300 dark:text-stone-900;
+}
