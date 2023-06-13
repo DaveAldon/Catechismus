@@ -86,6 +86,7 @@ module.exports = {
         secondary: [fontSecondary, fontSecondaryType],
         cinzelFont: ['Cinzel', 'serif'],
         garamondFont: ['EB Garamond', 'serif'],
+        karla: ['Karla', 'sans-serif'],
       },
     },
   },

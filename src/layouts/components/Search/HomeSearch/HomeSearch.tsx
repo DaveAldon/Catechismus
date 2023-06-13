@@ -4,14 +4,12 @@ import { FaSearch } from 'react-icons/fa';
 
 export const HomeSearch = () => {
   return (
-    <div className="flex w-1/3 flex-nowrap shadow-lg">
-      <button
-        className="btn btn-primary rounded-r-none border-none bg-white"
-        type="submit">
+    <div className="flex w-96 flex-nowrap justify-start overflow-hidden rounded-md bg-theme-light shadow-lg dark:bg-darkmode-theme-light">
+      <button className="btn border-none pr-0" type="submit">
         <FaSearch className="text-stone-500" />
       </button>
       <input
-        className="form-input rounded-l-none border-none bg-white"
+        className="form-input border-none"
         placeholder="Search by numeral or keyword"
         type="search"
         name="search"

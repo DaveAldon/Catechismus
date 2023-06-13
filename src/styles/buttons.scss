@@ -7,7 +7,7 @@
 }
 
 .btn-primary {
-  @apply border-primary bg-primary text-white dark:border-darkmode-primary dark:bg-white dark:text-dark;
+  @apply font-cinzelFont bg-orange-700 text-white rounded-sm dark:bg-orange-500 shadow-lg;
 }
 
 .btn-outline-primary {

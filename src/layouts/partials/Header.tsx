@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <header
-      className={`header z-30 h-[64px] ${
+      className={`white-background z-30 h-[64px] py-6 ${
         settings.sticky_header && 'sticky top-0'
       } flex items-center`}>
       <nav className="navbar container">

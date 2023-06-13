@@ -7,25 +7,27 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="dark:bg-darkmode-theme-light">
+    <footer className="white-background">
       <div className="px-8">
-        <div className="flex flex-row items-center justify-between py-10">
-          <div className="mb-8 flex flex-row gap-8 text-center lg:mb-0 lg:w-1/3 lg:text-left">
+        <div className="flex flex-col items-center justify-between gap-4 pb-0 pt-10 md:flex-row md:gap-0 md:pb-10">
+          <div className="flex flex-row gap-8 text-left lg:w-[436px]">
             <div className="pt-2">
               <LogoSmall />
             </div>
-            <p className="w-4/5">
-              <Link href={'/'} className="text-orange-700">
+            <p className="w-80">
+              <Link href={'/'} className="orange-text">
                 Catechismus
               </Link>{' '}
               is the best online experience of the Catechism of the Catholic
               Church
             </p>
           </div>
-          <div className="mb-8 flex flex-row gap-3 text-center lg:mb-0">
+          <div className="mb-8 flex flex-row gap-3 text-center md:mb-0">
             {menu.footer.map(menu => (
-              <div className="inline-block" key={menu.name}>
-                <Link href={menu.url} className="text-lg text-orange-700">
+              <div key={menu.name}>
+                <Link
+                  href={menu.url}
+                  className="orange-text font-karla text-lg font-normal">
                   {menu.name}
                 </Link>
               </div>
@@ -33,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-border py-7 dark:border-darkmode-border">
-          <div className=" flex flex-row justify-between text-center text-light dark:text-darkmode-light">
+          <div className="flex flex-col justify-between gap-4 text-center font-garamondFont text-light dark:text-darkmode-light md:flex-row md:gap-0">
             <p>St. John Paul II, patron saint of Catechismus, pray for us!</p>
             <p>{config.params.copyright}</p>
           </div>

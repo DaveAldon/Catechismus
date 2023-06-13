@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  @apply bg-body font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
+  @apply bg-stone-100 font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
 }
 
 h1,
@@ -52,4 +52,24 @@ strong {
 
 code {
   @apply after:border-none;
+}
+
+.orange-text {
+  @apply text-orange-700 dark:text-orange-500;
+}
+
+.black-text {
+  @apply text-stone-600 dark:text-stone-300;
+}
+
+.white-background {
+  @apply bg-white font-primary font-normal leading-relaxed text-text dark:bg-black dark:text-darkmode-text;
+}
+
+.tag {
+  @apply bg-stone-200 dark:bg-stone-700
+}
+
+.tag-text {
+  @apply text-stone-600 dark:text-stone-300;
 }
