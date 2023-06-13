@@ -1,20 +1,15 @@
+import { TableOfContentsButton } from '@/components/Buttons/TableOfContentsButton/TableOfContentsButton';
 import ImageFallback from '@/components/ImageFallback';
+import { HomeSearch } from '@/components/Search/HomeSearch/HomeSearch';
 import { getListPage } from '@/lib/contentParser';
-import { markdownify } from '@/lib/utils/textConverter';
-import CallToAction from '@/partials/CallToAction';
 import SeoMeta from '@/partials/SeoMeta';
-import Testimonials from '@/partials/Testimonials';
 import { Button, Feature } from '@/types';
-import { FaCheck } from 'react-icons/fa/index.js';
 
 const Home = () => {
   const homepage = getListPage('_index.md');
-  const testimonial = getListPage('sections/testimonial.md');
-  const callToAction = getListPage('sections/call-to-action.md');
   const { frontmatter } = homepage;
   const {
     banner,
-    features,
   }: {
     banner: { title: string; image: string; content?: string; button?: Button };
     features: Feature[];
@@ -23,84 +18,32 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14">
+      <section className="section bg-stone-100 pt-14">
         <div className="container">
           <div className="row justify-center">
-            <div className="mb-16 text-center lg:col-7">
-              <h1
-                className="mb-4"
-                dangerouslySetInnerHTML={markdownify(banner.title)}
-              />
-              <p
-                className="mb-8"
-                dangerouslySetInnerHTML={markdownify(banner.content ?? '')}
-              />
-              {banner.button!.enable && (
-                <a className="btn btn-primary" href={banner.button!.link}>
-                  {banner.button!.label}
-                </a>
-              )}
-            </div>
-            {banner.image && (
-              <div className="col-12">
-                <ImageFallback
-                  src={banner.image}
-                  className="mx-auto"
-                  width="800"
-                  height="420"
-                  alt="banner image"
-                  priority
-                />
+            <div className="mb-0 text-center">
+              <p className="mb-4 font-garamondFont text-4xl font-medium italic text-stone-500">
+                Catechismus Catholicæ Ecclesiæ
+              </p>
+              <div className="mb-2 flex flex-row justify-center gap-4">
+                <p className="mb-0 font-cinzelFont text-7xl font-bold text-stone-600">
+                  Catechism
+                </p>
+                <p className="text-italic font-garamondFont text-7xl font-medium italic text-stone-600">
+                  of the
+                </p>
               </div>
-            )}
+              <p className="mb-0 font-cinzelFont text-7xl font-bold text-stone-600">
+                Catholic Church
+              </p>
+              <div className="mt-12 flex w-full flex-col items-center justify-center gap-6">
+                <HomeSearch />
+                <TableOfContentsButton />
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-      {features.map((feature, index: number) => (
-        <section
-          key={index}
-          className={`section-sm ${index % 2 === 0 && 'bg-gradient'}`}>
-          <div className="container">
-            <div className="row items-center justify-between">
-              <div
-                className={`mb:md-0 mb-6 md:col-5 ${
-                  index % 2 !== 0 && 'md:order-2'
-                }`}>
-                <ImageFallback
-                  src={feature.image}
-                  height={480}
-                  width={520}
-                  alt={feature.title}
-                />
-              </div>
-              <div
-                className={`md:col-7 lg:col-6 ${
-                  index % 2 !== 0 && 'md:order-1'
-                }`}>
-                <h2
-                  className="mb-4"
-                  dangerouslySetInnerHTML={markdownify(feature.title)}
-                />
-                <p
-                  className="mb-8 text-lg"
-                  dangerouslySetInnerHTML={markdownify(feature.content)}
-                />
-                {feature.button.enable && (
-                  <a
-                    className="btn btn-primary mt-5"
-                    href={feature.button.link}>
-                    {feature.button.label}
-                  </a>
-                )}
-              </div>
-            </div>
-          </div>
-        </section>
-      ))}
-
-      <Testimonials data={testimonial} />
-      <CallToAction data={callToAction} />
     </>
   );
 };

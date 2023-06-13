@@ -46,7 +46,7 @@ export type Author = {
 export type Feature = {
   button: button;
   image: string;
-  bulletpoints: string[];
+  ballpoints: string[];
   content: string;
   title: string;
 };

@@ -84,6 +84,8 @@ module.exports = {
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
+        cinzelFont: ['Cinzel', 'serif'],
+        garamondFont: ['EB Garamond', 'serif'],
       },
     },
   },
