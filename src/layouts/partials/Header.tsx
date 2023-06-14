@@ -1,6 +1,7 @@
 'use client';
 
 import Logo from '@/components/navigationBar/Logo/Logo';
+import { SearchBar } from '@/components/navigationBar/Search/SearchBar';
 import { Tag } from '@/components/navigationBar/Tag/Tag';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
 import config from '@/config/config.json';
@@ -28,7 +29,6 @@ const Header = () => {
   const { navigation_button, settings } = config;
   // get current path
   const pathname = usePathname();
-
   return (
     <header
       className={`white-background z-30 h-[64px] py-6 ${
@@ -40,6 +40,11 @@ const Header = () => {
           <Logo />
           <Tag />
         </div>
+        {pathname === '/' ? null : (
+          <div className="hidden flex-grow items-center justify-center lg:flex">
+            <SearchBar />
+          </div>
+        )}
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" />
         <label
