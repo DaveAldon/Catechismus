@@ -2,6 +2,7 @@
 
 import Logo from '@/components/navigationBar/Logo/Logo';
 import { SearchBar } from '@/components/navigationBar/Search/SearchBar';
+import { Sidebar } from '@/components/navigationBar/Sidebar/Sidebar';
 import { Tag } from '@/components/navigationBar/Tag/Tag';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
 import config from '@/config/config.json';
@@ -29,11 +30,51 @@ const Header = () => {
   const { navigation_button, settings } = config;
   // get current path
   const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = React.useState(true);
+  const [animation, setAnimation] = React.useState('');
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    setAnimation(isMenuOpen ? 'animate-slide-left' : 'animate-slide-right');
+  };
+
+  const genericHamburgerLine = `h-1 w-6 my-1 rounded-full black-background transition ease transform duration-300`;
+  const HamburgerButton = () => {
+    return (
+      <button
+        className="group flex h-10 w-10 flex-col items-center justify-center lg:hidden"
+        onClick={toggleMenu}>
+        <div
+          className={`${genericHamburgerLine} ${
+            !isMenuOpen
+              ? 'translate-y-3 rotate-45 opacity-100 group-hover:opacity-100'
+              : 'opacity-100 group-hover:opacity-100'
+          }`}
+        />
+        <div
+          className={`${genericHamburgerLine} ${
+            !isMenuOpen ? 'opacity-0' : 'opacity-100 group-hover:opacity-100'
+          }`}
+        />
+        <div
+          className={`${genericHamburgerLine} ${
+            !isMenuOpen
+              ? '-translate-y-3 -rotate-45 opacity-100 group-hover:opacity-100'
+              : 'opacity-100 group-hover:opacity-100'
+          }`}
+        />
+      </button>
+    );
+  };
   return (
     <header
       className={`white-background z-30 h-[64px] py-6 ${
         settings.sticky_header && 'sticky top-0'
       } flex items-center`}>
+      <div
+        className={`absolute right-0 top-[64px] w-full translate-x-[100%] md:w-[280px] ${animation}`}>
+        <Sidebar />
+      </div>
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0 flex flex-row items-center justify-center gap-4">
@@ -46,29 +87,6 @@ const Header = () => {
           </div>
         )}
         {/* navbar toggler */}
-        <input id="nav-toggle" type="checkbox" className="hidden" />
-        <label
-          id="show-button"
-          htmlFor="nav-toggle"
-          className="order-3 flex cursor-pointer items-center text-dark dark:text-white lg:order-1 lg:hidden">
-          <svg className="h-6 fill-current" viewBox="0 0 20 20">
-            <title>Menu Open</title>
-            <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
-          </svg>
-        </label>
-        <label
-          id="hide-button"
-          htmlFor="nav-toggle"
-          className="order-3 hidden cursor-pointer items-center text-dark dark:text-white lg:order-1">
-          <svg className="h-6 fill-current" viewBox="0 0 20 20">
-            <title>Menu Close</title>
-            <polygon
-              points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-              transform="rotate(45 10 10)"></polygon>
-          </svg>
-        </label>
-        {/* /navbar toggler */}
-
         <ul
           id="nav-menu"
           className="navbar-nav g:flex-row order-3 hidden grow pb-6 text-right lg:order-1 lg:flex lg:w-auto lg:justify-end lg:space-x-2 lg:pb-0 xl:space-x-8">
@@ -87,6 +105,7 @@ const Header = () => {
             </li>
           )}
         </ul>
+
         <div className="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
           {settings.search && (
             <Link
@@ -96,7 +115,9 @@ const Header = () => {
               <IoSearch />
             </Link>
           )}
-          <ThemeSwitcher className="mr-5" />
+          <ThemeSwitcher className="mr-4" />
+          <HamburgerButton />
+
           {navigation_button.enable && (
             <Link
               className="btn btn-black btn-sm hidden lg:inline-block"

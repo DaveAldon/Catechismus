@@ -1,5 +1,5 @@
 html {
-  @apply text-base;
+  @apply text-base
 }
 
 body {
@@ -64,6 +64,10 @@ code {
 
 .white-background {
   @apply bg-white font-primary font-normal leading-relaxed text-text dark:bg-black dark:text-darkmode-text;
+}
+
+.black-background {
+  @apply bg-black dark:bg-white;
 }
 
 .tag {
