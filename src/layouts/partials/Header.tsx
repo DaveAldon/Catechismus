@@ -67,67 +67,70 @@ const Header = () => {
     );
   };
   return (
-    <header
-      className={`white-background z-30 h-[64px] py-6 ${
-        settings.sticky_header && 'sticky top-0'
-      } flex items-center`}>
-      <div
-        className={`absolute right-0 top-[64px] w-full translate-x-[100%] md:w-[280px] ${animation}`}>
-        <Sidebar />
-      </div>
-      <nav className="navbar container">
-        {/* logo */}
-        <div className="order-0 flex flex-row items-center justify-center gap-4">
-          <Logo />
-          <Tag />
+    <div>
+      <div className="absolute right-0 top-[64px] w-full overflow-hidden md:w-[280px]">
+        <div className={`w-full translate-x-[100%] ${animation}`}>
+          <Sidebar />
         </div>
-        {pathname === '/' ? null : (
-          <div className="hidden flex-grow items-center justify-center lg:flex">
-            <SearchBar />
+      </div>
+      <header
+        className={`white-background z-30 h-[64px] py-6 ${
+          settings.sticky_header && 'sticky top-0'
+        } flex items-center`}>
+        <nav className="navbar container">
+          {/* logo */}
+          <div className="order-0 flex flex-row items-center justify-center gap-4">
+            <Logo />
+            <Tag />
           </div>
-        )}
-        {/* navbar toggler */}
-        <ul
-          id="nav-menu"
-          className="navbar-nav g:flex-row order-3 hidden grow pb-6 text-right lg:order-1 lg:flex lg:w-auto lg:justify-end lg:space-x-2 lg:pb-0 xl:space-x-8">
-          <li className="nav-item">
-            <Link href={'/about'} className={`nav-link active mr-4 block`}>
-              About
-            </Link>
-          </li>
-          {navigation_button.enable && (
-            <li className="mt-4 inline-block lg:hidden">
+          {pathname === '/' ? null : (
+            <div className="hidden flex-grow items-center justify-center lg:flex">
+              <SearchBar />
+            </div>
+          )}
+          {/* navbar toggler */}
+          <ul
+            id="nav-menu"
+            className="navbar-nav g:flex-row order-3 hidden grow pb-6 text-right lg:order-1 lg:flex lg:w-auto lg:justify-end lg:space-x-2 lg:pb-0 xl:space-x-8">
+            <li className="nav-item">
+              <Link href={'/about'} className={`nav-link active mr-4 block`}>
+                About
+              </Link>
+            </li>
+            {navigation_button.enable && (
+              <li className="mt-4 inline-block lg:hidden">
+                <Link
+                  className="btn btn-black btn-sm"
+                  href={navigation_button.link}>
+                  {navigation_button.label}
+                </Link>
+              </li>
+            )}
+          </ul>
+
+          <div className="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+            {settings.search && (
               <Link
-                className="btn btn-black btn-sm"
+                className="mr-5 inline-block border-r border-border pr-5 text-xl text-dark hover:text-primary dark:border-darkmode-border dark:text-white"
+                href="/search"
+                aria-label="search">
+                <IoSearch />
+              </Link>
+            )}
+            <ThemeSwitcher className="mr-4" />
+            <HamburgerButton />
+
+            {navigation_button.enable && (
+              <Link
+                className="btn btn-black btn-sm hidden lg:inline-block"
                 href={navigation_button.link}>
                 {navigation_button.label}
               </Link>
-            </li>
-          )}
-        </ul>
-
-        <div className="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
-          {settings.search && (
-            <Link
-              className="mr-5 inline-block border-r border-border pr-5 text-xl text-dark hover:text-primary dark:border-darkmode-border dark:text-white"
-              href="/search"
-              aria-label="search">
-              <IoSearch />
-            </Link>
-          )}
-          <ThemeSwitcher className="mr-4" />
-          <HamburgerButton />
-
-          {navigation_button.enable && (
-            <Link
-              className="btn btn-black btn-sm hidden lg:inline-block"
-              href={navigation_button.link}>
-              {navigation_button.label}
-            </Link>
-          )}
-        </div>
-      </nav>
-    </header>
+            )}
+          </div>
+        </nav>
+      </header>
+    </div>
   );
 };
 
