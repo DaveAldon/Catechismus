@@ -16,6 +16,13 @@ const shortcodes = {
   Notice,
   Youtube,
   CrossReference,
+  a: (props: any) => (
+    <a
+      {...props}
+      className="font-normal text-orange-700 no-underline dark:text-orange-500">
+      {props.children}
+    </a>
+  ),
 };
 
 export default shortcodes;
