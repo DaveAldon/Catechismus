@@ -62,6 +62,10 @@ code {
   @apply text-stone-600 dark:text-stone-300;
 }
 
+.subtitle-text {
+  @apply text-stone-500 dark:text-stone-400;
+}
+
 .white-background {
   @apply bg-white font-primary font-normal leading-relaxed text-text dark:bg-black dark:text-darkmode-text;
 }
