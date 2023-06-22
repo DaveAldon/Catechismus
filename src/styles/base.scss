@@ -66,6 +66,10 @@ code {
   @apply text-stone-500 dark:text-stone-400;
 }
 
+.section-text {
+  @apply text-stone-600 dark:text-stone-400;
+}
+
 .white-background {
   @apply bg-white font-primary font-normal leading-relaxed text-text dark:bg-black dark:text-darkmode-text;
 }
@@ -84,4 +88,20 @@ code {
 
 .header-text {
   @apply text-6xl font-cinzelFont font-bold
+}
+
+.faith-text {
+  @apply text-sky-900 dark:text-sky-300;
+}
+
+.liturgy-text {
+  @apply text-rose-900 dark:text-rose-300;
+}
+
+.life-text {
+  @apply text-teal-900 dark:text-teal-300;
+}
+
+.prayer-text {
+  @apply text-fuchsia-900 dark:text-fuchsia-300;
 }

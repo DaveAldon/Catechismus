@@ -1,5 +1,7 @@
 'use client';
 
+import { Icon } from '@iconify/react';
+
 interface ContentHeaderProps {
   title: string;
   part?: number;
@@ -9,11 +11,14 @@ interface ContentHeaderProps {
     sectionDescription?: string;
     verseRange?: number[];
   }[];
+  color?: string;
 }
+
 export const ContentParent = (props: ContentHeaderProps) => {
   return (
-    <div className="h-min-32 flex w-full grid-cols-3 flex-row items-center justify-start">
-      <div className="flex flex-col items-center justify-center">
+    <div className="h-min-32 flex grid-cols-3 flex-row items-center gap-12 px-12 py-4">
+      <div
+        className={`items-left flex w-1/3 flex-col justify-center ${props.color}`}>
         {props.part ? (
           <div className="font-garamondFont text-3xl italic">
             Part {props.part}
@@ -26,23 +31,38 @@ export const ContentParent = (props: ContentHeaderProps) => {
           </div>
         ) : null}
       </div>
-      {props.sections.map((section, index) => (
-        <div className="flex flex-col items-center justify-center" key={index}>
-          <div className="text-2xl font-bold">{section.sectionTitle}</div>
-          {section.sectionDescription ? (
-            <div className="text-2xl font-bold">
-              {section.sectionDescription}
+      {props.sections.map((section, index) => {
+        const verseRange = section.verseRange
+          ? section.verseRange.join(' → ')
+          : null;
+        return (
+          <div
+            className="flex w-1/3 flex-col items-start justify-center"
+            key={index}>
+            <div className="flex w-full flex-row justify-between">
+              <div
+                className={`font-cinzelFont text-2xl font-bold ${props.color}`}>
+                {section.sectionTitle}
+              </div>
+              <div className="flex flex-row items-center gap-4">
+                {verseRange ? (
+                  <div
+                    className="flex font-karla text-sm font-normal"
+                    key={index}>
+                    {verseRange}
+                  </div>
+                ) : null}
+                <Icon icon="heroicons-outline:plus" className="text-lg" />
+              </div>
             </div>
-          ) : null}
-          {section.verseRange
-            ? section.verseRange.map((verse, index) => (
-                <div className="text-2xl font-bold" key={index}>
-                  {verse}
-                </div>
-              ))
-            : null}
-        </div>
-      ))}
+            {section.sectionDescription ? (
+              <div className="font-karla text-sm font-normal">
+                {section.sectionDescription}
+              </div>
+            ) : null}
+          </div>
+        );
+      })}
     </div>
   );
 };
