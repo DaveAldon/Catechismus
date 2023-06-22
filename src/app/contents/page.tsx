@@ -21,6 +21,7 @@ const Contents = async () => {
           verseRange: [1, 25],
         },
       ],
+      backgroundColor: 'white-background',
     },
     {
       title: 'Faith',
@@ -57,6 +58,7 @@ const Contents = async () => {
         },
       ],
       color: 'liturgy-text',
+      backgroundColor: 'white-background',
     },
     {
       title: 'Life',
@@ -93,6 +95,7 @@ const Contents = async () => {
         },
       ],
       color: 'prayer-text',
+      backgroundColor: 'white-background',
     },
   ];
 
@@ -104,16 +107,12 @@ const Contents = async () => {
         description={description}
         image={image}
       />
-      <section className="">
-        <div className="container">
-          <div className="black-text row w-full">
-            <ContentHeader />
-            {tableOfContents.map((item, index) => (
-              <ContentParent key={index} {...item} />
-            ))}
-          </div>
-        </div>
-      </section>
+      <div className="black-text w-full">
+        <ContentHeader />
+        {tableOfContents.map((item, index) => (
+          <ContentParent key={index} {...item} />
+        ))}
+      </div>
     </>
   );
 };
