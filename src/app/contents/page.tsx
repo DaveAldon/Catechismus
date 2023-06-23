@@ -87,6 +87,26 @@ const Contents = async () => {
           sectionTitle: 'Prayer',
           sectionDescription: 'Sec. 1: Prayer in the Christian Life',
           verseRange: [2558, 2758],
+          chapters: [
+            {
+              chapterTitle: 'Search',
+              chapterDescription: 'Ch. 1: Man’s Capacity for God',
+              verseRange: [26, 49],
+              isCollapsable: true,
+              articles: [
+                {
+                  articleTitle: 'Art. 1: The Revelation of God',
+                  articleSections: [
+                    {
+                      title: 'I. Christ—The Unique Word of Sacred Scripture',
+                      verseRange: [101, 104],
+                    },
+                  ],
+                  verseRange: [50, 73],
+                },
+              ],
+            },
+          ],
         },
         {
           sectionTitle: 'Our Father',
