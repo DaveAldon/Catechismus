@@ -47,7 +47,7 @@ export const CollapseSection = (props: CollapseSectionProps) => {
         </div>
       ) : null}
       {props.chapters ? (
-        <div className="w-full" {...getCollapseProps()}>
+        <div className="section-border w-full" {...getCollapseProps()}>
           <CollapseChapter {...props} />
         </div>
       ) : null}

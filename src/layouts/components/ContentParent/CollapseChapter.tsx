@@ -24,7 +24,7 @@ export const CollapseChapter = (props: CollapseChapterProps) => {
   const { getToggleProps, getCollapseProps, isExpanded } = useCollapse();
 
   return (
-    <div className="flex w-full flex-col justify-between pt-4">
+    <div className=" flex w-full flex-col justify-between pt-4">
       {props.chapters &&
         props.chapters.map((chapter, index) => {
           return (
@@ -60,8 +60,8 @@ export const CollapseChapter = (props: CollapseChapterProps) => {
                 </div>
               ) : null}
               {chapter.articles ? (
-                <div className="w-full" {...getCollapseProps()}>
-                  <CollapseArticle {...chapter} />
+                <div className="section-border w-full" {...getCollapseProps()}>
+                  <CollapseArticle {...{ ...chapter, color: props.color }} />
                 </div>
               ) : null}
             </div>

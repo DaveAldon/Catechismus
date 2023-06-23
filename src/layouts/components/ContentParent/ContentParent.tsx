@@ -26,7 +26,8 @@ export const ContentParent = (props: ContentHeaderProps) => {
     <div className={`${props.backgroundColor}`}>
       <div
         className={`h-min-32 container flex flex-col gap-4 py-4 lg:flex-row lg:gap-0`}>
-        <div className={`flex flex-col items-start md:w-1/3 ${props.color}`}>
+        <div
+          className={`flex flex-col items-start pr-8 md:w-1/3 ${props.color}`}>
           {props.part ? (
             <div className="font-garamondFont text-3xl italic">
               Part {props.part}

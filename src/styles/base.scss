@@ -105,3 +105,7 @@ code {
 .prayer-text {
   @apply text-fuchsia-900 dark:text-fuchsia-300;
 }
+
+.section-border {
+  @apply border-l-2 border-stone-200 dark:border-stone-700 pl-4;
+}
