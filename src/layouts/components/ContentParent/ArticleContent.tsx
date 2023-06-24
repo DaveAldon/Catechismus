@@ -35,7 +35,7 @@ export const ArticleContent = (props: CollapseArticleType) => {
           return (
             <div
               key={index}
-              className="flex flex-row font-karla text-sm font-normal">
+              className="flex flex-row justify-between font-karla text-sm font-normal">
               <div className={`font-karla text-base font-normal`}>
                 {articleSection.title}
               </div>
