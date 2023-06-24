@@ -10,9 +10,11 @@ export const CollapseSection = (props: CollapseSectionType) => {
   return (
     <div className="flex w-full flex-col items-start md:w-1/2">
       <div className="flex w-full flex-row justify-between">
-        <div className={`font-cinzelFont text-2xl font-bold ${props.color}`}>
-          {props.sectionTitle}
-        </div>
+        <a href="/writing">
+          <div className={`font-cinzelFont text-2xl font-bold ${props.color}`}>
+            {props.sectionTitle}
+          </div>
+        </a>
         <div className="flex flex-row items-center">
           {props.verseRange ? (
             <div className="flex flex-row gap-1 px-4 font-karla text-sm font-normal">

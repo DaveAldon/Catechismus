@@ -3,13 +3,12 @@ enum CrossReferenceType {
   red = 'red',
   teal = 'teal',
   fuchsia = 'fuchsia',
-  gray = 'gray',
 }
 interface CrossReferenceProps {
   children: React.ReactNode;
-  type: 'blue' | 'red' | 'teal' | 'fuchsia' | 'gray';
+  type: 'blue' | 'red' | 'teal' | 'fuchsia';
 }
-export const CrossReference = (props: CrossReferenceProps) => {
+export const FootnoteReference = (props: CrossReferenceProps) => {
   let background, text, darkBackground, darkText;
 
   switch (props.type) {
@@ -37,11 +36,6 @@ export const CrossReference = (props: CrossReferenceProps) => {
       darkBackground = 'dark:bg-fuchsia-100';
       darkText = 'dark:text-fuchsia-900';
       break;
-    case CrossReferenceType.gray:
-      background = 'bg-stone-200';
-      text = 'text-stone-800';
-      darkBackground = 'dark:bg-stone-200';
-      darkText = 'dark:text-stone-200';
   }
   return (
     <div className="mx-1 inline-block">
