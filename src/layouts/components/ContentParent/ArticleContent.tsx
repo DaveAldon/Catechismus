@@ -36,12 +36,14 @@ export const ArticleContent = (props: ArticleContentProps) => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col gap-4" {...getCollapseProps()}>
+      <div
+        className="section-border flex flex-col gap-4 py-4"
+        {...getCollapseProps()}>
         {article.articleSections.map((articleSection, index) => {
           return (
             <div
               key={index}
-              className="section-border flex flex-row font-karla text-sm font-normal">
+              className="flex flex-row font-karla text-sm font-normal">
               <div className={`font-karla text-base font-normal`}>
                 {articleSection.title}
               </div>
@@ -53,6 +55,10 @@ export const ArticleContent = (props: ArticleContentProps) => {
                     <div>{articleSection.verseRange[1]}</div>
                   </div>
                 ) : null}
+                <Icon
+                  icon="heroicons-outline:plus"
+                  className="text-lg text-transparent"
+                />
               </div>
             </div>
           );
