@@ -1,16 +1,8 @@
 import { Icon } from '@iconify/react';
 import { useCollapse } from 'react-collapsed';
+import { CollapseArticleType } from './collapse';
 
-interface ArticleContentProps {
-  color?: string;
-  articleTitle: string;
-  articleSections: {
-    title: string;
-    verseRange?: number[];
-  }[];
-  verseRange?: number[];
-}
-export const ArticleContent = (props: ArticleContentProps) => {
+export const ArticleContent = (props: CollapseArticleType) => {
   const { getToggleProps, getCollapseProps, isExpanded } = useCollapse();
   const article = props;
   return (

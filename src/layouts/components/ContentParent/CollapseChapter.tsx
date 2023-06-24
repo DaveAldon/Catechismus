@@ -2,23 +2,10 @@ import React from 'react';
 import { useCollapse } from 'react-collapsed';
 import { Icon } from '@iconify/react';
 import { CollapseArticle } from './CollapseArticle';
+import { CollapseChapterType, CollapseStyle } from './collapse';
 
-interface CollapseChapterProps {
-  chapters?: {
-    chapterTitle: string;
-    chapterDescription?: string;
-    verseRange?: number[];
-    isCollapsable?: boolean;
-    articles?: {
-      articleTitle: string;
-      articleSections: {
-        title: string;
-        verseRange?: number[];
-      }[];
-      verseRange?: number[];
-    }[];
-  }[];
-  color?: string;
+interface CollapseChapterProps extends CollapseStyle {
+  chapters?: CollapseChapterType[];
 }
 export const CollapseChapter = (props: CollapseChapterProps) => {
   const { getToggleProps, getCollapseProps, isExpanded } = useCollapse();
@@ -61,7 +48,10 @@ export const CollapseChapter = (props: CollapseChapterProps) => {
               ) : null}
               {chapter.articles ? (
                 <div className="section-border w-full" {...getCollapseProps()}>
-                  <CollapseArticle {...{ ...chapter, color: props.color }} />
+                  <CollapseArticle
+                    articles={chapter.articles}
+                    color={props.color}
+                  />
                 </div>
               ) : null}
             </div>

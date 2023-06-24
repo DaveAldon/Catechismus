@@ -1,27 +1,9 @@
 'use client';
 
 import { CollapseSection } from './CollapseSection';
+import { CollapseParentType } from './collapse';
 
-interface ContentHeaderProps {
-  title: string;
-  part?: number;
-  subtitle?: string;
-  sections: {
-    sectionTitle: string;
-    sectionDescription?: string;
-    verseRange?: number[];
-    chapters?: {
-      chapterTitle: string;
-      chapterDescription?: string;
-      verseRange?: number[];
-      isCollapsable?: boolean;
-    }[];
-  }[];
-  color?: string;
-  backgroundColor?: string;
-}
-
-export const ContentParent = (props: ContentHeaderProps) => {
+export const ContentParent = (props: CollapseParentType) => {
   return (
     <div className={`${props.backgroundColor}`}>
       <div

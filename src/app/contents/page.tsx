@@ -1,5 +1,6 @@
 import { ContentHeader } from '@/components/ContentParent/ContentHeader';
 import { ContentParent } from '@/components/ContentParent/ContentParent';
+import { CollapseParentType } from '@/components/ContentParent/collapse';
 import { getListPage } from '@/lib/contentParser';
 import SeoMeta from '@/partials/SeoMeta';
 import { RegularPage } from '@/types';
@@ -9,7 +10,7 @@ const Contents = async () => {
   const { frontmatter, content } = data;
   const { title, description, meta_title, image } = frontmatter;
 
-  const tableOfContents = [
+  const tableOfContents: CollapseParentType[] = [
     {
       title: 'Intro',
       sections: [
