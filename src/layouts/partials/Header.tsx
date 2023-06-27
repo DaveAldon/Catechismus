@@ -68,7 +68,7 @@ const Header = () => {
   };
   return (
     <div>
-      <div className="pointer-events-none absolute right-0 top-[64px] w-full overflow-hidden md:w-[280px]">
+      <div className="pointer-events-none absolute right-0 top-[64px] z-10 w-full overflow-hidden md:w-[280px]">
         <div
           className={`w-full translate-x-[100%] ${animation} pointer-events-auto`}>
           <Sidebar />
