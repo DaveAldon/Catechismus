@@ -41,7 +41,7 @@ export const CrossReference = (props: CrossReferenceProps) => {
       background = 'bg-stone-200';
       text = 'text-stone-800';
       darkBackground = 'dark:bg-stone-200';
-      darkText = 'dark:text-stone-200';
+      darkText = 'dark:text-stone-800';
   }
   return (
     <div className="mx-1 inline-block">
