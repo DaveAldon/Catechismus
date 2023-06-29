@@ -28,7 +28,7 @@ export const WritingContent = (props: WritingContentProps) => {
           </div>
         </Section>
         <Bar
-          size={10}
+          size={2}
           style={{
             background: 'currentColor',
             cursor: 'col-resize',

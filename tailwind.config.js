@@ -105,6 +105,7 @@ module.exports = {
     },
   },
   plugins: [
+    require('@tailwindcss/container-queries'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('tailwind-bootstrap-grid')({
