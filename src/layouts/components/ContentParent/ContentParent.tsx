@@ -4,13 +4,21 @@ import { CollapseSection } from './CollapseSection';
 import { CollapseParentType } from './collapse';
 
 export const ContentParent = (props: CollapseParentType) => {
-  console.log(props.color);
+  const textColors = [
+    'section-text',
+    'faith-text',
+    'liturgy-text',
+    'life-text',
+    'prayer-text',
+  ];
   return (
     <div className={`${props.backgroundColor}`}>
       <div
         className={`h-min-32 container flex flex-col gap-4 py-4 lg:flex-row lg:gap-0`}>
         <div
-          className={`flex flex-col items-start pr-8 md:w-1/3 ${props.color}`}>
+          className={`flex flex-col items-start pr-8 md:w-1/3 ${
+            textColors[props.part || 0]
+          }`}>
           {props.part ? (
             <div className={`font-garamondFont text-3xl capitalize italic `}>
               Part {props.part}

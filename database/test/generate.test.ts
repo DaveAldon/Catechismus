@@ -173,15 +173,6 @@ describe('build relationships between json files', () => {
 
   it('Converts ToCTopic[] to CollapseParentType[]', async () => {
     const toc = await getJsonData(SheetPaths.TABLE_OF_CONTENTS);
-
-    const textColors = [
-      'text-stone-600 dark:text-stone-400',
-      'text-sky-900 dark:text-sky-300',
-      'text-rose-900 dark:text-rose-300',
-      'text-teal-900 dark:text-teal-300',
-      'text-fuchsia-900 dark:text-fuchsia-300',
-    ];
-
     const titles = ['Intro', 'Faith', 'Liturgy', 'Life', 'Prayer'];
 
     const collapseParentType: CollapseParentType[] = toc.map(
@@ -194,7 +185,6 @@ describe('build relationships between json files', () => {
               : '',
           part: topicIndex,
           backgroundColor: topicIndex % 2 === 0 ? 'white-background' : '',
-          color: textColors[topicIndex],
           sections: topic.sections.map((section: ToCSection) => {
             return {
               sectionTitle: `Section Title`,
