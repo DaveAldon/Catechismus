@@ -7,7 +7,7 @@ interface CollapseArticleProps extends CollapseStyle {
 }
 export const CollapseArticle = (props: CollapseArticleProps) => {
   return (
-    <div className="flex w-full flex-col justify-between gap-4 pt-4">
+    <div className="flex w-full flex-col justify-between gap-4 pt-4 capitalize">
       {props.articles &&
         props.articles.map((article, index) => {
           return (

@@ -27,9 +27,12 @@ export interface CollapseChapterType extends CollapseStyle {
 
 export interface CollapseArticleType extends CollapseStyle {
   articleTitle: string;
-  articleSections: {
-    title: string;
-    verseRange?: number[];
-  }[];
+  articleSections: CollapseParagraphType[];
+  verseRange?: number[];
+}
+
+export interface CollapseParagraphType extends CollapseStyle {
+  paragraphTitle: string;
+  romanNumber: string;
   verseRange?: number[];
 }

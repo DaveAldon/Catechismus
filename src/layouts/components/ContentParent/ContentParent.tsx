@@ -11,17 +11,17 @@ export const ContentParent = (props: CollapseParentType) => {
         <div
           className={`flex flex-col items-start pr-8 md:w-1/3 ${props.color}`}>
           {props.part ? (
-            <div className="font-garamondFont text-3xl italic">
+            <div className="font-garamondFont text-3xl capitalize italic">
               Part {props.part}
             </div>
           ) : null}
-          <div className="font-cinzelFont text-7xl font-bold">
+          <div className="font-cinzelFont text-7xl font-bold capitalize">
             {props.title}
           </div>
           {props.subtitle ? (
-            <div className="subtitle-text font-cinzelFont text-2xl font-bold">
+            <p className="subtitle-text font-cinzelFont text-2xl font-bold capitalize">
               {props.subtitle}
-            </div>
+            </p>
           ) : null}
         </div>
         <div className="flex w-full flex-col gap-8 md:flex-row md:gap-8 lg:w-2/3">

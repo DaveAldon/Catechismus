@@ -1,0 +1,1678 @@
+[
+  {
+    "title": "Intro",
+    "subtitle": "",
+    "part": 0,
+    "backgroundColor": "white-background",
+    "color": "",
+    "sections": [
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: undefined",
+            "articles": [
+              {
+                "articleTitle": "art. 1: undefined",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "undefined",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      127,
+                      4257
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2274,
+                  372
+                ]
+              }
+            ],
+            "verseRange": [
+              123,
+              5216
+            ]
+          }
+        ],
+        "verseRange": [
+          3419,
+          6532
+        ]
+      }
+    ],
+    "verseRange": [
+      4158,
+      782
+    ]
+  },
+  {
+    "title": "Faith",
+    "subtitle": "the profession of faith",
+    "part": 1,
+    "backgroundColor": "",
+    "color": "faith-text",
+    "sections": [
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "\"i believe\" - \"we believe\"",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: man's capacity for god",
+            "articles": [
+              {
+                "articleTitle": "art. 1: man's capacity for god",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "man's capacity for god",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      5115,
+                      8913
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  7945,
+                  9255
+                ]
+              }
+            ],
+            "verseRange": [
+              7355,
+              731
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 2: god comes to meet man",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the revelation of god",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the revelation of god",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      535,
+                      1359
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8627,
+                  8009
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the transmission of divine revelation",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the transmission of divine revelation",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6871,
+                      4211
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4471,
+                  2808
+                ]
+              },
+              {
+                "articleTitle": "art. 3: sacred scripture",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "sacred scripture",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1401,
+                      8830
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3549,
+                  8235
+                ]
+              }
+            ],
+            "verseRange": [
+              2689,
+              1052
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 3: man's response to god",
+            "articles": [
+              {
+                "articleTitle": "art. 1: i believe",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "i believe",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6974,
+                      7566
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  5902,
+                  6367
+                ]
+              },
+              {
+                "articleTitle": "art. 2: we believe",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "we believe",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      7095,
+                      4968
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2644,
+                  6508
+                ]
+              }
+            ],
+            "verseRange": [
+              4406,
+              2988
+            ]
+          }
+        ],
+        "verseRange": [
+          2838,
+          904
+        ]
+      },
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "the profession of the christian faith",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: i believe in god the father",
+            "articles": [
+              {
+                "articleTitle": "art. 1: \"i believe in god the father almighty, creator of heaven and earth\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "i believe in god",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3048,
+                      8399
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "the father",
+                    "romanNumber": "II",
+                    "verseRange": [
+                      8075,
+                      8113
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "the almighty",
+                    "romanNumber": "III",
+                    "verseRange": [
+                      9269,
+                      9598
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "the creator",
+                    "romanNumber": "IV",
+                    "verseRange": [
+                      6724,
+                      9439
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "heaven and earth",
+                    "romanNumber": "V",
+                    "verseRange": [
+                      2052,
+                      2076
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "man",
+                    "romanNumber": "VI",
+                    "verseRange": [
+                      6291,
+                      7031
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "the fall",
+                    "romanNumber": "VII",
+                    "verseRange": [
+                      7478,
+                      9201
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3078,
+                  9676
+                ]
+              }
+            ],
+            "verseRange": [
+              5601,
+              4043
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 2: i believe in jesus christ, the only son of god",
+            "articles": [
+              {
+                "articleTitle": "art. 1: \"and in jesus christ, his only son, our lord\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"and in jesus christ, his only son, our lord\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6980,
+                      4320
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6677,
+                  9282
+                ]
+              },
+              {
+                "articleTitle": "art. 2: \"he was conceived by the power of the holy spirit, and was born of the virgin mary\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the son of god became man",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4974,
+                      3991
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "\"conceived by the power of the holy spirit and born of the virgin mary\"",
+                    "romanNumber": "II",
+                    "verseRange": [
+                      9000,
+                      2888
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "\"the mysteries of christ's life\"",
+                    "romanNumber": "III",
+                    "verseRange": [
+                      3199,
+                      8088
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6711,
+                  7815
+                ]
+              },
+              {
+                "articleTitle": "art. 3: \"jesus christ suffered under pontius pilate, was crucified, died, and was buried\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "jesus and israel",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      5815,
+                      9722
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "jesus died crucified",
+                    "romanNumber": "II",
+                    "verseRange": [
+                      5959,
+                      4257
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "jesus christ was buried",
+                    "romanNumber": "III",
+                    "verseRange": [
+                      1957,
+                      3758
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3960,
+                  1662
+                ]
+              },
+              {
+                "articleTitle": "art. 4: \"he descended into hell on the third day he rose again\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "christ descended into hell",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4211,
+                      6700
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "on the third day he rose from the dead",
+                    "romanNumber": "II",
+                    "verseRange": [
+                      8645,
+                      8427
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2101,
+                  8178
+                ]
+              },
+              {
+                "articleTitle": "art. 5: \"he ascended into heaven and is seated at the right hand of the father\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"he ascended into heaven and is seated at the right hand of the father\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4946,
+                      4169
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  5675,
+                  7954
+                ]
+              },
+              {
+                "articleTitle": "art. 6: \"from thence he will come again\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"from thence he will come again\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      7854,
+                      2178
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4464,
+                  4685
+                ]
+              }
+            ],
+            "verseRange": [
+              9842,
+              7054
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 3: i believe in the holy spirit",
+            "articles": [
+              {
+                "articleTitle": "art. 1: \"i believe in the holy spirit\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"i believe in the holy spirit\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      369,
+                      6202
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3464,
+                  9572
+                ]
+              },
+              {
+                "articleTitle": "art. 2: \"i believe in the holy catholic church\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the church in god's plan",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1416,
+                      4217
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "the church - people of god, body of christ, temple of the holy spirit",
+                    "romanNumber": "II",
+                    "verseRange": [
+                      2820,
+                      6155
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "the church is one, holy, catholic, and apostolic",
+                    "romanNumber": "III",
+                    "verseRange": [
+                      423,
+                      1232
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "christ's faithful - hierarchy, laity, consecrated life",
+                    "romanNumber": "IV",
+                    "verseRange": [
+                      9096,
+                      8226
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "the communion of saints",
+                    "romanNumber": "V",
+                    "verseRange": [
+                      2703,
+                      3932
+                    ]
+                  },
+                  {
+                    "paragraphTitle": "mary - mother of christ, mother of the church",
+                    "romanNumber": "VI",
+                    "verseRange": [
+                      8420,
+                      3411
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3744,
+                  757
+                ]
+              },
+              {
+                "articleTitle": "art. 3: \"i believe in the forgiveness of sins\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"i believe in the forgiveness of sins\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      8843,
+                      25
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  5468,
+                  1493
+                ]
+              },
+              {
+                "articleTitle": "art. 4: \"i believe in the resurrection of the body\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"i believe in the resurrection of the body\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3387,
+                      4394
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4548,
+                  8017
+                ]
+              },
+              {
+                "articleTitle": "art. 5: \"i believe in life everlasting\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"i believe in life everlasting\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      627,
+                      1939
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3579,
+                  7555
+                ]
+              }
+            ],
+            "verseRange": [
+              6500,
+              2589
+            ]
+          }
+        ],
+        "verseRange": [
+          796,
+          4355
+        ]
+      }
+    ],
+    "verseRange": [
+      8311,
+      6859
+    ]
+  },
+  {
+    "title": "Liturgy",
+    "subtitle": "the celebration of the christian mystery",
+    "part": 2,
+    "backgroundColor": "white-background",
+    "color": "liturgy-text",
+    "sections": [
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "the sacramental economy",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: the paschal mystery in the age of the church",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the liturgy - work of the holy trinity",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the liturgy - work of the holy trinity",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3409,
+                      4163
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  573,
+                  4464
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the paschal mystery in the church's sacraments",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the paschal mystery in the church's sacraments",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6033,
+                      8449
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2801,
+                  9566
+                ]
+              }
+            ],
+            "verseRange": [
+              1222,
+              6458
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 2: the sacramental celebration",
+            "articles": [
+              {
+                "articleTitle": "art. 1: celebrating the church's liturgy",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "celebrating the church's liturgy",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      9108,
+                      3556
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8566,
+                  9649
+                ]
+              },
+              {
+                "articleTitle": "art. 2: liturgical diversity and the unity of the mystery",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "liturgical diversity and the unity of the mystery",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      9192,
+                      2628
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  7126,
+                  7239
+                ]
+              }
+            ],
+            "verseRange": [
+              6214,
+              1932
+            ]
+          }
+        ],
+        "verseRange": [
+          7149,
+          5304
+        ]
+      },
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "the seven sacraments of the church",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: the sacraments of christian initiation",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the sacrament of baptism",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the sacrament of baptism",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6106,
+                      9777
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3346,
+                  3670
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the sacrament of confirmation",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the sacrament of confirmation",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3962,
+                      2602
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6191,
+                  3741
+                ]
+              },
+              {
+                "articleTitle": "art. 3: the sacrament of the eucharist",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the sacrament of the eucharist",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6384,
+                      3455
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  5266,
+                  2591
+                ]
+              }
+            ],
+            "verseRange": [
+              3975,
+              2343
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 2: the sacraments of healing",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the sacrament of penance and reconciliation",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the sacrament of penance and reconciliation",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4539,
+                      3844
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4101,
+                  8631
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the anointing of the sick",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the anointing of the sick",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1138,
+                      4781
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  7104,
+                  3923
+                ]
+              }
+            ],
+            "verseRange": [
+              8139,
+              6326
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 3: the sacraments at the service of communion",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the sacrament of holy orders",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the sacrament of holy orders",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1329,
+                      6364
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3832,
+                  3971
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the sacrament of matrimony",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the sacrament of matrimony",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4240,
+                      3011
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  1444,
+                  9798
+                ]
+              }
+            ],
+            "verseRange": [
+              9223,
+              1634
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 4: other liturgical celebrations",
+            "articles": [
+              {
+                "articleTitle": "art. 1: sacramentals",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "sacramentals",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3589,
+                      1674
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  9352,
+                  1577
+                ]
+              },
+              {
+                "articleTitle": "art. 2: christian funerals",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "christian funerals",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3620,
+                      7802
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  1694,
+                  530
+                ]
+              }
+            ],
+            "verseRange": [
+              7043,
+              5772
+            ]
+          }
+        ],
+        "verseRange": [
+          866,
+          2896
+        ]
+      }
+    ],
+    "verseRange": [
+      7422,
+      2547
+    ]
+  },
+  {
+    "title": "Life",
+    "subtitle": "life in christ",
+    "part": 3,
+    "backgroundColor": "",
+    "color": "life-text",
+    "sections": [
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "man's vocation",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: the dignity of the human person",
+            "articles": [
+              {
+                "articleTitle": "art. 1: man",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "man",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      5324,
+                      9792
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3612,
+                  557
+                ]
+              },
+              {
+                "articleTitle": "art. 2: our vocation to beatitude",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "our vocation to beatitude",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      8976,
+                      238
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  80,
+                  5765
+                ]
+              },
+              {
+                "articleTitle": "art. 3: man's freedom",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "man's freedom",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4603,
+                      2892
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3528,
+                  7254
+                ]
+              },
+              {
+                "articleTitle": "art. 4: the morality of human acts",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the morality of human acts",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      7673,
+                      8982
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3588,
+                  1535
+                ]
+              },
+              {
+                "articleTitle": "art. 5: the morality of the passions",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the morality of the passions",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1538,
+                      4013
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2949,
+                  785
+                ]
+              },
+              {
+                "articleTitle": "art. 6: moral conscience",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "moral conscience",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3396,
+                      9432
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4488,
+                  994
+                ]
+              },
+              {
+                "articleTitle": "art. 7: the virtues",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the virtues",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1472,
+                      3283
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8137,
+                  310
+                ]
+              },
+              {
+                "articleTitle": "art. 8: sin",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "sin",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1071,
+                      4796
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  1812,
+                  9598
+                ]
+              }
+            ],
+            "verseRange": [
+              1671,
+              8691
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 2: the human community",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the person and society",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the person and society",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      8427,
+                      6465
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  9055,
+                  8368
+                ]
+              },
+              {
+                "articleTitle": "art. 2: participation in social life",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "participation in social life",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3069,
+                      9562
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6580,
+                  4000
+                ]
+              },
+              {
+                "articleTitle": "art. 3: social justice",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "social justice",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      1927,
+                      4962
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2884,
+                  3397
+                ]
+              }
+            ],
+            "verseRange": [
+              8976,
+              5258
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 3: god's salvation",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the moral law",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the moral law",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3903,
+                      1976
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  7356,
+                  7579
+                ]
+              },
+              {
+                "articleTitle": "art. 2: grace and justification",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "grace and justification",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      2976,
+                      96
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6536,
+                  2532
+                ]
+              },
+              {
+                "articleTitle": "art. 3: the church, mother and teacher",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the church, mother and teacher",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6191,
+                      9122
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  7095,
+                  411
+                ]
+              }
+            ],
+            "verseRange": [
+              2889,
+              8889
+            ]
+          }
+        ],
+        "verseRange": [
+          2585,
+          7760
+        ]
+      },
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "the ten commandments",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: \"you shall love the lord you god with all your heart, and with all your soul, and with all your mind\"",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the first commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the first commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      2261,
+                      2408
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  383,
+                  4021
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the second commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the second commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4193,
+                      5161
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2983,
+                  5226
+                ]
+              },
+              {
+                "articleTitle": "art. 3: the third commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the third commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4171,
+                      9071
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  3289,
+                  7899
+                ]
+              }
+            ],
+            "verseRange": [
+              5466,
+              986
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 2: \"you shall love your neighbor as yourself\"",
+            "articles": [
+              {
+                "articleTitle": "art. 1: the fourth commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the fourth commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      5320,
+                      8839
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  1344,
+                  7271
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the fifth commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the fifth commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      5426,
+                      2098
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6252,
+                  5726
+                ]
+              },
+              {
+                "articleTitle": "art. 3: the sixth commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the sixth commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      9085,
+                      9053
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8478,
+                  1801
+                ]
+              },
+              {
+                "articleTitle": "art. 4: the seventh commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the seventh commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6272,
+                      1360
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  9821,
+                  9803
+                ]
+              },
+              {
+                "articleTitle": "art. 5: the eighth commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the eighth commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3950,
+                      825
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  73,
+                  4357
+                ]
+              },
+              {
+                "articleTitle": "art. 6: the ninth commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the ninth commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      680,
+                      4728
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6745,
+                  3133
+                ]
+              },
+              {
+                "articleTitle": "art. 7: the tenth commandment",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the tenth commandment",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      2070,
+                      3769
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8849,
+                  2937
+                ]
+              }
+            ],
+            "verseRange": [
+              3595,
+              2611
+            ]
+          }
+        ],
+        "verseRange": [
+          170,
+          4708
+        ]
+      }
+    ],
+    "verseRange": [
+      6763,
+      3339
+    ]
+  },
+  {
+    "title": "Prayer",
+    "subtitle": "christian prayer",
+    "part": 4,
+    "backgroundColor": "white-background",
+    "color": "prayer-text",
+    "sections": [
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "prayer in the christian life",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: the revelation of prayer",
+            "articles": [
+              {
+                "articleTitle": "art. 1: in the old testament",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "in the old testament",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3677,
+                      7565
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8099,
+                  429
+                ]
+              },
+              {
+                "articleTitle": "art. 2: in the fullness of time",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "in the fullness of time",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      3567,
+                      5639
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8406,
+                  757
+                ]
+              },
+              {
+                "articleTitle": "art. 3: in the age of the church",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "in the age of the church",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      7654,
+                      9471
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  8344,
+                  58
+                ]
+              }
+            ],
+            "verseRange": [
+              6948,
+              9994
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 2: the tradition of prayer",
+            "articles": [
+              {
+                "articleTitle": "art. 1: at the wellsprings of prayer",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "at the wellsprings of prayer",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4034,
+                      6730
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  700,
+                  1367
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the way of prayer",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the way of prayer",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      723,
+                      8189
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  6536,
+                  2896
+                ]
+              },
+              {
+                "articleTitle": "art. 3: guides for prayer",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "guides for prayer",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4237,
+                      2075
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  9808,
+                  5581
+                ]
+              }
+            ],
+            "verseRange": [
+              788,
+              1159
+            ]
+          },
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 3: the life of prayer",
+            "articles": [
+              {
+                "articleTitle": "art. 1: expressions of prayer",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "expressions of prayer",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      9687,
+                      631
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4437,
+                  3677
+                ]
+              },
+              {
+                "articleTitle": "art. 2: the battle of prayer",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the battle of prayer",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      6281,
+                      2193
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4717,
+                  7526
+                ]
+              },
+              {
+                "articleTitle": "art. 3: the prayer of the hour of jesus",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the prayer of the hour of jesus",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      2359,
+                      3678
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  7240,
+                  7242
+                ]
+              }
+            ],
+            "verseRange": [
+              5704,
+              4901
+            ]
+          }
+        ],
+        "verseRange": [
+          638,
+          1636
+        ]
+      },
+      {
+        "sectionTitle": "Section Title",
+        "sectionDescription": "the lord's prayer",
+        "chapters": [
+          {
+            "chapterTitle": "Chapter Title",
+            "chapterDescription": "ch. 1: the lord's prayer",
+            "articles": [
+              {
+                "articleTitle": "art. 1: \"the summary of the whole gospel\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"the summary of the whole gospel\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      2029,
+                      7085
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  2521,
+                  6258
+                ]
+              },
+              {
+                "articleTitle": "art. 2: \"our father who art in heaven\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"our father who art in heaven\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      5869,
+                      8200
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  4612,
+                  6932
+                ]
+              },
+              {
+                "articleTitle": "art. 3: \"the seven petitions\"",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "\"the seven petitions\"",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      4685,
+                      7004
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  1846,
+                  4530
+                ]
+              },
+              {
+                "articleTitle": "art. 4: the final doxology",
+                "articleSections": [
+                  {
+                    "paragraphTitle": "the final doxology",
+                    "romanNumber": "I",
+                    "verseRange": [
+                      2729,
+                      1506
+                    ]
+                  }
+                ],
+                "verseRange": [
+                  7909,
+                  7641
+                ]
+              }
+            ],
+            "verseRange": [
+              9574,
+              7550
+            ]
+          }
+        ],
+        "verseRange": [
+          6895,
+          3037
+        ]
+      }
+    ],
+    "verseRange": [
+      6930,
+      3280
+    ]
+  }
+]

@@ -10,7 +10,8 @@
     "lint": "next lint",
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
-    "remove-darkmode": "node scripts/removeDarkMode.js && npm run format"
+    "remove-darkmode": "node scripts/removeDarkMode.js && npm run format",
+    "test": "jest"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -22,8 +23,10 @@
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "disqus-react": "^1.1.5",
+    "dotenv": "^16.3.1",
     "fuse.js": "^6.6.2",
     "github-slugger": "^2.0.0",
+    "googleapis": "^120.0.0",
     "gray-matter": "^4.0.3",
     "heroicons": "^2.0.18",
     "marked": "^5.0.5",
@@ -43,9 +46,13 @@
     "swiper": "^9.3.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.22.6",
     "@iconify/react": "^4.1.0",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.2",
     "@types/marked": "^5.0.0",
     "@types/node": "20.2.5",
     "@types/react": "18.2.8",
@@ -54,6 +61,8 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.43.0",
     "eslint-config-next": "^13.4.7",
+    "jest": "^29.6.0",
+    "jest-environment-jsdom": "^29.6.0",
     "postcss": "^8.4.24",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.1",

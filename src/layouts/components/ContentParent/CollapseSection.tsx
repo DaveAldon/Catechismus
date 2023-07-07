@@ -11,7 +11,8 @@ export const CollapseSection = (props: CollapseSectionType) => {
     <div className="flex w-full flex-col items-start md:w-1/2">
       <div className="flex w-full flex-row justify-between">
         <a href="/writing">
-          <div className={`font-cinzelFont text-2xl font-bold ${props.color}`}>
+          <div
+            className={`font-cinzelFont text-2xl font-bold capitalize ${props.color}`}>
             {props.sectionTitle}
           </div>
         </a>
@@ -33,13 +34,23 @@ export const CollapseSection = (props: CollapseSectionType) => {
         </div>
       </div>
       {props.sectionDescription ? (
-        <div className="font-karla text-sm font-normal">
+        <div className="font-karla text-sm font-normal capitalize">
           {props.sectionDescription}
         </div>
       ) : null}
       {props.chapters ? (
         <div className="section-border w-full" {...getCollapseProps()}>
-          <CollapseChapter chapters={props.chapters} color={props.color} />
+          <div className="flex w-full flex-col justify-between gap-4 pt-4">
+            {props.chapters &&
+              props.chapters.map((chapter, index) => {
+                return (
+                  <CollapseChapter
+                    {...{ ...chapter, color: props.color }}
+                    key={index}
+                  />
+                );
+              })}
+          </div>
         </div>
       ) : null}
     </div>

@@ -35,8 +35,15 @@ export const ArticleContent = (props: CollapseArticleType) => {
               <div
                 key={index}
                 className="flex flex-row justify-between font-karla text-sm font-normal">
-                <div className={`font-karla text-base font-normal`}>
-                  {articleSection.title}
+                <div className="flex flex-row gap-2">
+                  <div
+                    className={`w-[20px] text-right font-karla text-base font-normal`}>
+                    {articleSection.romanNumber}.
+                  </div>
+                  <div
+                    className={`w-fit text-left font-karla text-base font-normal`}>
+                    {articleSection.paragraphTitle}
+                  </div>
                 </div>
                 <div className="flex flex-row items-center">
                   {articleSection.verseRange ? (
