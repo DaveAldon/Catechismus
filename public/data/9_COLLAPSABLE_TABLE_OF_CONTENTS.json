@@ -4,7 +4,7 @@
     "subtitle": "",
     "part": 0,
     "backgroundColor": "white-background",
-    "color": "",
+    "color": "text-stone-600 dark:text-stone-400",
     "sections": [
       {
         "sectionTitle": "Section Title",
@@ -54,7 +54,7 @@
     "subtitle": "the profession of faith",
     "part": 1,
     "backgroundColor": "",
-    "color": "faith-text",
+    "color": "text-sky-900 dark:text-sky-300",
     "sections": [
       {
         "sectionTitle": "Section Title",
@@ -581,7 +581,7 @@
     "subtitle": "the celebration of the christian mystery",
     "part": 2,
     "backgroundColor": "white-background",
-    "color": "liturgy-text",
+    "color": "text-rose-900 dark:text-rose-300",
     "sections": [
       {
         "sectionTitle": "Section Title",
@@ -895,7 +895,7 @@
     "subtitle": "life in christ",
     "part": 3,
     "backgroundColor": "",
-    "color": "life-text",
+    "color": "text-teal-900 dark:text-teal-300",
     "sections": [
       {
         "sectionTitle": "Section Title",
@@ -1386,7 +1386,7 @@
     "subtitle": "christian prayer",
     "part": 4,
     "backgroundColor": "white-background",
-    "color": "prayer-text",
+    "color": "text-fuchsia-900 dark:text-fuchsia-300",
     "sections": [
       {
         "sectionTitle": "Section Title",

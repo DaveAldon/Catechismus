@@ -4,6 +4,7 @@ import { CollapseSection } from './CollapseSection';
 import { CollapseParentType } from './collapse';
 
 export const ContentParent = (props: CollapseParentType) => {
+  console.log(props.color);
   return (
     <div className={`${props.backgroundColor}`}>
       <div
@@ -11,7 +12,7 @@ export const ContentParent = (props: CollapseParentType) => {
         <div
           className={`flex flex-col items-start pr-8 md:w-1/3 ${props.color}`}>
           {props.part ? (
-            <div className="font-garamondFont text-3xl capitalize italic">
+            <div className={`font-garamondFont text-3xl capitalize italic `}>
               Part {props.part}
             </div>
           ) : null}

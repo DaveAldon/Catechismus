@@ -175,11 +175,11 @@ describe('build relationships between json files', () => {
     const toc = await getJsonData(SheetPaths.TABLE_OF_CONTENTS);
 
     const textColors = [
-      '',
-      'faith-text',
-      'liturgy-text',
-      'life-text',
-      'prayer-text',
+      'text-stone-600 dark:text-stone-400',
+      'text-sky-900 dark:text-sky-300',
+      'text-rose-900 dark:text-rose-300',
+      'text-teal-900 dark:text-teal-300',
+      'text-fuchsia-900 dark:text-fuchsia-300',
     ];
 
     const titles = ['Intro', 'Faith', 'Liturgy', 'Life', 'Prayer'];
