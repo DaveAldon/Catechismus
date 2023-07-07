@@ -2,7 +2,7 @@ export interface CollapseStyle {
   color?: string;
 }
 
-export interface CollapseParentType extends CollapseStyle {
+export interface CollapseParentType {
   backgroundColor?: string;
   title: string;
   part?: number;
