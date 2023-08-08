@@ -6,11 +6,13 @@ You will need to have [Node.js](https://nodejs.org/en/) installed on your machin
 
 1. Install dependencies: `npm install`
 2. Run in local dev mode with hot reload: `npm run dev`
+3. Navigate to [localhost:3000](http://localhost:3000) or whatever port is specified in the console output
 
 When you're ready to deploy, follow these steps:
 
 1. Build for production - reveals any compile issues: `npm run build`
 2. Run in production (no hot reload): `npm run start`
+3. Navigate to [localhost:3000](http://localhost:3000) or whatever port is specified in the console output
 
 ## Running the Google Sheet transformers
 
