@@ -1,42 +1,26 @@
 # Catechismus
 
-## 📌 Key Features
-
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
 ## 🚀 Getting Started
 
-### 📦 Dependencies
+You will need to have [Node.js](https://nodejs.org/en/) installed on your machine. After cloning the repo, follow these steps:
 
-- next 13.4+
-- node v18+
-- npm v9.5+
-- tailwind v3.3+
+1. Install dependencies: `npm install`
+2. Run in local dev mode with hot reload: `npm run dev`
+
+When you're ready to deploy, follow these steps:
+
+1. Build for production - reveals any compile issues: `npm run build`
+2. Run in production (no hot reload): `npm run start`
+
+## Running the Google Sheet transformers
+
+1. You will need a Google Auth service account with access to the google sheet - [see tutorial](https://www.webdavsystem.com/server/gsuite/service-account/)
+2. Use the info from this service account to fill out your `.env` file based on the `.env.example` file
+3. Run the scripts via the test cases: `npm run test`
+4. They should pull the data and create json files in the `public/` folder
+
+## Structure
+
+- `src/` - This is where the frontend source code lives
+- `database/` - This is where any scripts are that pull data from google sheets
+- `public/` - This is where static assets live, such as the transformed json data
